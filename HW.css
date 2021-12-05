@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif !important;
+    transition: 250ms;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header {
+    background-image: url(https://wallpaperbat.com/img/94278-web-design-wallpaper-top-free-web-design-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.top-part {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inner {
+    width: 70%;
+    margin: auto;
+}
+
+.logo img {
+    width: 80px;
+    inline-size: 160px;
+    block-size: 73px;
+}
+
+.header-navigation {
+    float: right;
+    margin: -4px;
+
+}
+
+.header-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #ff0000;
+}
+
+.header-navigation li {
+    padding: 32px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom-part {
+    width: 70%;
+    margin: 200px auto;
+}
+
+.bottom-part h1 {
+    font-size: 120px;
+}
+
+.bottom-part h2 {
+    font-size: 70px;
+}

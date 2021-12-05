@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif !important;
+    transition: 250ms;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.top-part {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inner {
+    width: 70%;
+    margin: auto;
+}
+
+.logo img {
+    width: 80px;
+    inline-size: 160px;
+    block-size: 73px;
+}
+
+.header-navigation {
+    float: right;
+    margin: -4px;
+}
+
+.header-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #ff0000;
+}
+
+.header-navigation li {
+    padding: 32px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-part,
+.right-part {
+    width: 50%;
+    padding: 60px;
+    float: left;
+    height: 600px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.left-part {
+    background-color: white;
+}
+
+.right-part {
+    position: relative;
+    background-color: #F6F6F6;
+}
+
+.about h3,
+.about p {
+    margin-bottom: 30px;
+}
+
+.about p {
+    font-weight: 300;
+}
+
+.profiles h4 {
+    margin: 20px 0;
+}
+
+.profiles svg {
+    width: 120px;
+    vertical-align: middle;
+}
+
+.sss {
+    inline-size: 330px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#code {
+    margin-inline-start: 29px;
+}
+
+.opening h2 {
+    text-align: left;
+    padding: 10px;
+}
+
+.hoc {
+    inline-size: 550px;
+    margin: -12px;
+    margin-inline-start: 60px;
+}

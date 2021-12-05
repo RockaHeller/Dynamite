@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif !important;
+    transition: 250ms;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header {
+    position: fixed;
+    width: 101%;
+    top: 0;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.top-part {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inner {
+    width: 70%;
+    margin: auto;
+}
+
+.logo img {
+    width: 80px;
+    inline-size: 160px;
+    block-size: 73px;
+}
+
+.header-navigation {
+    float: right;
+    margin: -4px;
+
+}
+
+.header-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-navigation a:hover {
+    color: #ff0000;
+}
+
+.header-navigation li {
+    padding: 32px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    background-color: #f6f6f6;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.member {
+    padding: 50px 0;
+}
+
+.member>div {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cont {
+    width: 100%;
+    padding-right: 30px;
+}
+
+.cont h3 {
+    font-size: 18px;
+    color: #183346;
+    text-align: left;
+    font-family: Lato;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.cont p {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.cont ul {
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+.cont ul li {
+    display: block;
+    line-height: 30px;
+    color: #333333;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.cont ul li::before {
+    font-family: FontAwesome;
+    content: "\f05d";
+    color: #05a85e;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 8px;
+    left: -25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.right-part {
+    text-align: center;
+}
+
+.right-part img {
+    height: 300px;
+}
